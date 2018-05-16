@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+	a{
+		color: green;
+	}
+</style>
+</head>
+
+<body>
+<button id='btn' onclick='openfile()'>dianji</button>
+<a href="">345234234</a>
+<input type="file" style='display:none'>
+
+<script type="text/javascript" src="./zepto.js"></script>
+<script type="text/javascript">
+	// $('#btn').on('tap',function(){
+	// 	alert(1);
+	// })
+	$(function(){
+		$('a').attr('href','01.html');
+	});
+</script>
+
+<script type="text/javascript" >
+function openfile(){
+ document.getElementsByTagName('input')[0].click()
+}
+	</script>
+</body>
+</html>
