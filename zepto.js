@@ -3,7 +3,7 @@
   if (typeof define === 'function' && define.amd)
     define(function() { return factory(global) })
   else
-    factory(global)
+    factory(global)5556565
 }(window, function(window) {
   var Zepto = (function() {
   var undefined, key, $, classList, emptyArray = [], concat = emptyArray.concat, filter = emptyArray.filter, slice = emptyArray.slice,
